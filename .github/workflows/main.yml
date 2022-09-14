@@ -32,5 +32,4 @@ jobs:
 
     - name: Test with PyTest
       run: |
-        import pytest
         pytest --cov=inflammation.models tests/test_models.py
